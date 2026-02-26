@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/urob
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: brokenax3
+      url-base: https://github.com/brokenax3
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,6 +29,9 @@ manifest:
       remote: hitsmaxft
       revision: zephyr4
       clone-depth: 1
+    - name: zmk-behavior-socd
+      remote: brokenax3
+      revision: main
     #- name: zmk-dongle-screen
     #  remote: janpfischer
     #  revision: main
